@@ -59,10 +59,62 @@ section nav ul li a:hover{
 color: orange; /*it will converts whole text into one color when pointed*/
 
 }
+section nav body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  section nav .mobile-container {
+    max-width: 200px;
+    margin: 10px 50px 10px 50px;
+    background-color: #f60606;
+    height: 40px;
+    color: rgb(247, 142, 23);
+    border-radius: 10px;
+  }
+  section nav .mobile-container .topnav h1{
+    display: flex;
+    margin: 10px 20px ;
+  }
+  
+  section nav .topnav {
+    overflow: hidden;
+    background-color: orange;
+    position: relative;
+  }
+  
+  section nav .topnav #myLinks {
+    display:none ;
+  }
+  
+  section nav .topnav a {
+    color: rgb(252, 15, 15);
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  section nav .topnav a.icon {
+    background: rgb(242, 7, 7);
+    display: block;
+    position: absolute;
+    left: 20;
+    top: 0;
+  }
+  
+  section nav .topnav a:hover {
+    background-color: #ea0909;
+    color: rgb(244, 236, 236);
+  }
+  
+  section nav .active {
+    background-color: #fa1905;
+    color: rgb(244, 16, 16);
+  }
 section nav .icon i{
     font-size: 18px;
     color:  blue;
-    margin: 0 5px;
+    margin: -15px 0px;
     cursor: pointer;
     transition: 0.3s;
 }

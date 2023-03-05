@@ -280,7 +280,7 @@ section .main_bt:hover i
 }
 .menu .menu_box .menu_card{
     width: 350px;
-    height :550px;
+    height :600px;
     padding-top:10px ;
     margin-bottom: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
